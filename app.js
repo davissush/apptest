@@ -16,17 +16,19 @@ var homePage =
     '</div>';
 
 var detailsPage =
-    '<div>' +
-        '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
-        '<div class="scroller">' +
-            '<div class="robot">' +
+        '<div>' +
+                '<div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>' +
+                '<div class="scroller">' +
+                '<div class="robot">' +
                 '<img src="images/{{img}}"/>' +
                 '<h2>{{name}}</h2>' +
                 '<p>{{description}}</p>' +
-            '</div>' +
-        '</div>' +
-    '</div>';
+                '</div>' +
+                '</div>' +
+                '</div>';
 
+window.localStorage.setItem("homePage", homePage);
+window.localStorage.setItem("detailsPage", detailsPage);
 
 var slider = new PageSlider($("#container"));
 $(window).on('hashchange', route);
@@ -37,13 +39,13 @@ function route(event) {
         hash = window.location.hash;
 
     if (hash === "#page1") {
-        page = merge(detailsPage, {img: "buildbot.jpg", name: "Build Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
+        page = merge(window.localStorage.getItem("homePage"), {img: "buildbot.jpg", name: "Build Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     } else if (hash === "#page2") {
-        page = merge(detailsPage, {img: "medibot.jpg", name: "Medi Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
+        page = merge(window.localStorage.getItem("detailsPage"), {img: "medibot.jpg", name: "Medi Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     } else if (hash === "#page3") {
-        page = merge(detailsPage, {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
+        page = merge(window.localStorage.getItem("detailsPage"), {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
 //        slider.slide($(page), "right");
     }
     else {
