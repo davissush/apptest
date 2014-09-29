@@ -40,24 +40,19 @@ function route(event) {
 
     if (hash === "#page1") {
         page = merge(window.localStorage.getItem("homePage"), {img: "buildbot.jpg", name: "Build Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
-//        slider.slide($(page), "right");
     } else if (hash === "#page2") {
         page = merge(window.localStorage.getItem("detailsPage"), {img: "medibot.jpg", name: "Medi Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
-//        slider.slide($(page), "right");
     } else if (hash === "#page3") {
         page = merge(window.localStorage.getItem("detailsPage"), {img: "ripplebot.jpg", name: "Ripple Bot", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."});
-//        slider.slide($(page), "right");
     }
     else {
         page = window.localStorage.getItem("homePage");
-//        slider.slide($(homePage), "left");
     }
 
     slider.slidePage($(page));
 
 }
 
-// Primitive template processing. In a real-life app, use Handlerbar.js, Mustache.js or another template engine
 function merge(tpl, data) {
     return tpl.replace("{{img}}", data.img)
               .replace("{{name}}", data.name)
