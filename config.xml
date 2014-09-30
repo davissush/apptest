@@ -74,5 +74,7 @@
         <plugin name="InAppBrowser" value="CDVInAppBrowser" />
     </plugins>
 
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.0" />
+
     <access origin="*" />
 </widget>

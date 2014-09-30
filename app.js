@@ -23,6 +23,7 @@ var detailsPage =
                 '<img src="images/{{img}}"/>' +
                 '<h2>{{name}}</h2>' +
                 '<p>{{description}}</p>' +
+                "<button onclick='window.plugins.socialsharing.share(&quot;Message only&quot;)'>message only</button>" +
                 '</div>' +
                 '</div>' +
                 '</div>';
