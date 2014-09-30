@@ -23,6 +23,7 @@ var detailsPage =
                 '<img src="images/{{img}}"/>' +
                 '<h2>{{name}}</h2>' +
                 '<p>{{description}}</p>' +
+                "<button id='fireup'>Fire UP</button>" +
                 "<button onclick='window.plugins.socialsharing.share(&quot;Message only&quot;)'>message only</button>" +
                 '</div>' +
                 '</div>' +
@@ -61,3 +62,14 @@ function merge(tpl, data) {
 }
 
 route();
+
+(function($) {
+
+        $("#fireup").entwine({
+                onclick: function(){
+                        window.alert('hello');
+                        window.plugins.socialsharing.share('Message and subject', 'The subject');
+                }
+        })
+
+})(jQuery);
