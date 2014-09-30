@@ -67,7 +67,6 @@ route();
 
         $("#fireup").entwine({
                 onclick: function(){
-                        window.alert('hello');
                         window.plugins.socialsharing.share('Message and subject', 'The subject');
                 }
         })
