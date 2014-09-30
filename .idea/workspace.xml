@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c24dbc18-21d4-4829-b768-afa469e8264b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
     </list>
     <ignored path="apptest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="97" selection-start="3526" selection-end="3526" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="1343">
+            <state line="31" column="56" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.14086021" vertical-offset="396" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="77" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.81972426" vertical-offset="519" max-vertical-offset="1462">
+            <state line="80" column="0" selection-start="3366" selection-end="3366" vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -67,8 +66,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -254,16 +253,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="97" selection-start="3526" selection-end="3526" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="1343">
+        <state line="80" column="0" selection-start="3366" selection-end="3366" vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="77" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.81972426" vertical-offset="519" max-vertical-offset="1462">
+        <state line="31" column="56" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.14086021" vertical-offset="396" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>

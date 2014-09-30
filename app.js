@@ -24,7 +24,6 @@ var detailsPage =
                 '<h2>{{name}}</h2>' +
                 '<p>{{description}}</p>' +
                 "<button id='fireup'>Fire UP</button>" +
-                "<button onclick='window.plugins.socialsharing.share(&quot;Message only&quot;)'>message only</button>" +
                 '</div>' +
                 '</div>' +
                 '</div>';
