@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24dbc18-21d4-4829-b768-afa469e8264b" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\ReadMe.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\css\pageslider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\css\styles.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\images\buildbot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\images\medibot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\images\ripplebot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\lib\cordova-2.5.0.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\lib\fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\lib\jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\mobileapps\apptest\lib\jquery.entwine-dist.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apptest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,42 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="64" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1046" max-vertical-offset="2057">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="6" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1412122735693" expanded="true" signature="1512:1516" placeholder="{...}" />
-                <marker date="1412122735693" expanded="true" signature="1569:1681" placeholder="{...}" />
-                <marker date="1412122735693" expanded="true" signature="1752:1884" placeholder="{&quot;quality&quot;: 50...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="66" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.7230098" vertical-offset="0" max-vertical-offset="917">
+            <state line="21" column="62" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.378579" vertical-offset="0" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -81,9 +62,9 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -149,35 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apptest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apptest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apptest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apptest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,42 +236,32 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/jquery.entwine-dist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="38573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state line="40" column="73" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.72110283" vertical-offset="0" max-vertical-offset="943">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1412122735693" expanded="true" signature="1512:1516" placeholder="{...}" />
-            <marker date="1412122735693" expanded="true" signature="1569:1681" placeholder="{...}" />
-            <marker date="1412122735693" expanded="true" signature="1752:1884" placeholder="{&quot;quality&quot;: 50...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1046" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="64" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+        <state line="88" column="0" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.47720042" vertical-offset="1046" max-vertical-offset="2057">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="66" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.7230098" vertical-offset="0" max-vertical-offset="917">
+        <state line="14" column="62" selection-start="639" selection-end="639" vertical-scroll-proportion="0.259542" vertical-offset="0" max-vertical-offset="917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="62" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.378579" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
